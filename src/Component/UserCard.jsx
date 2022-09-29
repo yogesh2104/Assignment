@@ -8,7 +8,7 @@ const UserCard = (props) => {
         <div className="rounded-xl bg-white shadow-md">
           <div className="float-left mr-4 mt-10 ml-5 flex justify-center">
             <img
-              // src={props.datas.picture.large}
+              src={props.datas.picture.large}
               className="w-20 rounded-full"
               alt="Avatar"
             />
